@@ -1,0 +1,54 @@
+body{
+    outline: 1px black solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 550px;
+    margin: auto;
+    margin-top: 40px;
+}
+body *{
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    width: 400px;
+}
+main *{
+    margin-top: 12px;
+}
+main .blueArea:first-child{
+    padding: 25px 0;
+}
+main .blueArea:last-child{
+    padding: 100px 0;
+    margin-top: 50px;
+    text-align: center;
+    padding: 12px 0;
+    justify-content:baseline;
+}
+.blueArea{
+    background:#d9e8fb;
+    outline: 2px #a8b3c3 solid;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header{
+    margin-top: 12px;
+}
+header .blueArea{
+    padding: 4px 50px;
+    margin-bottom: 15px;
+}
+
+
+footer{
+    margin: 120px 24px 24px auto;
+}
+footer .blueArea{
+    padding: 20px 42px;
+}
+

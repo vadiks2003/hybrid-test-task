@@ -1,0 +1,2 @@
+This project involves both node (backend) and frontend. It uses typescript, compilation through esbuild, inside index.js.
+I followed official quickstart and official guides, for things like esbuild, typescript with node, and node server.
